@@ -6,7 +6,7 @@
 # Sistemas Distribuidos
 # Seminario 2 con fecha 20/03/2015
 
-# Autores:
+# Autores: Grupo 9
 #   Justo Manuel Fuentes Meléndez
 #   Christian Suárez Picón
 
