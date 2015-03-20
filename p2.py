@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-# <nbformat>3.0</nbformat>
 
 # <codecell>
 
 # Sistemas Distribuidos
-# Seminario 2 con fecha 20/03/2015
+# Seminario 2
 
-# Autores: Grupo 9
+# Autores:
 #   Justo Manuel Fuentes Meléndez
 #   Christian Suárez Picón
 
@@ -33,8 +32,8 @@ def creaListaMasLarga(fichero):
             else: #En otro caso
                 i += 1 #Vemos si el siguiente pokemon coincide
         if (len(ListaAuxiliar)>len(ListaMasLarga)): # Vemos si la ListaAuxiliar es mas larga que ListaMasLarga
-    		del ListaMasLarga[:] # Borramos ListaMasLarga
-    		ListaMasLarga.extend(ListaAuxiliar) # Amplimos ListaMasLarga con ListaAuxiliar
+            del ListaMasLarga[:] # Borramos ListaMasLarga
+            ListaMasLarga += ListaAuxiliar # Amplimos ListaMasLarga con ListaAuxiliar
         del ListaAuxiliar[:] # Borramos ListaAuxliar
     print ListaMasLarga # Pintamos el contenido de ListaMasLarga
 
