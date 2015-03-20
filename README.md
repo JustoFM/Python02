@@ -1,4 +1,4 @@
-#Entregable 02
+#Entregable 02 - Grupo 9
 Entrega segundo seminario Sistemas Distribuidos.
 
 En el fichero p2.py se encuentra programa que se encarga de obtener la lista más larga de palabras encadenadas, es decir,
